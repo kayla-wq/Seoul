@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
+
+body{
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+    background-color: black;
+    width: 100%;
+}
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    justify-content: space-between;
+    width: 800px;
+}
+.logo{
+    color: white;
+    font-size:35px ;
+    margin-right: 80px;
+    margin-top: -10px;
+}
+header a{
+    margin-right: 30px;
+    color:white;
+    text-decoration:none;
+}
+.historyart{
+    background-color:white;
+}
+.istorya{
+    color:black;
+    padding: 32px 56px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 40px auto;
+    gap: 80px;
+}
+
+.about,
+.recommendations {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+    flex-direction: row;
+}
+
+.text-container {
+    width: 60%;
+    margin-top: 50px;
+ 
+}
+
+.image-container {
+    width: 40%;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about h2,
+.recommendations h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about p,
+.recommendations p {
+    font-size: 18px;
+    line-height: 1.6;
+    color:white;
+    max-width: 550px; 
+}
+.historyart1{
+    background-color:red;
+}
+.istorya1{
+    color:white;
+    padding: 32px 56px;
+    font-family: 'Montserrat', sans-serif;
+}
